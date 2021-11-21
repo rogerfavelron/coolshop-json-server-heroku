@@ -1,16 +1,271 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
+  "crews":{
+      "straw-hat-pirates":[
+          {
+              "name":"Luffy",
+              "image":"https://i.ibb.co/Z2DV2MT/luffy.png",
+              "price": 1500000000
+          },
+          {
+              "name":"Zoro",
+              "image":"https://i.ibb.co/pQPpTC4/zoro.png",
+              "price": 320000000
+          },
+          {
+              "name":"Brook",
+              "image":"https://i.ibb.co/RjjsX2h/brook.png",
+              "price": 83000000
+          },
+          {
+              "name":"Chopper",
+              "image":"https://i.ibb.co/60JfMFf/chopper.png",
+              "price": 100
+          },
+          {
+              "name":"Franky",
+              "image":"https://i.ibb.co/vHjrjzd/franky.png",
+              "price": 94000000
+          },
+          {
+              "name":"Jinbe",
+              "image":"https://i.ibb.co/rp2GSJ0/jinbe.png",
+              "price": 438000000
+          },
+          {
+              "name":"Nami",
+              "image":"https://i.ibb.co/25fxx2j/nami.png",
+              "price": 66000000
+          },
+          {
+              "name":"Robin",
+              "image":"https://i.ibb.co/vjLbgrS/robin.png",
+              "price": 130000000
+          },
+          {
+              "name":"Sanji",
+              "image":"https://i.ibb.co/4gsF1VM/sanji.png",
+              "price": 330000000
+          },
+          {
+              "name":"Usopp",
+              "image":"https://i.ibb.co/HNLLL30/usopp.png",
+              "price": 200000000
+          }
+        ],
+        "whitebeard-pirates":[
+          {
+              "name":"Whitebeard",
+              "image":"https://i.ibb.co/Zmt0dxf/whitebeard.png",
+              "price": 5046000000
+          },
+          {
+              "name":"Marco",
+              "image":"https://i.ibb.co/sjSJ69f/marco.png",
+              "price": 1374000000
+          },
+          {
+              "name":"Oden",
+              "image":"https://i.ibb.co/HqQZSFz/oden.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Ace",
+              "image":"https://i.ibb.co/DfQpNG0/ace.png",
+              "price": 550000000
+          }
+        ],
+        "roger-pirates":[
+          {
+              "name":"Buggy",
+              "image":"https://i.ibb.co/SDgRxpd/buggy.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Nekomamushi",
+              "image":"https://i.ibb.co/6yKyhbs/cat.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Crocus",
+              "image":"https://i.ibb.co/WFty0Kc/crocus.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Inuarashi",
+              "image":"https://i.ibb.co/wCJhfKj/dog.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Gaban",
+              "image":"https://i.ibb.co/fqXYyY3/gaban.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Oden",
+              "image":"https://i.ibb.co/HqQZSFz/oden.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Rayleigh",
+              "image":"https://i.ibb.co/yWYw7nt/rayleigh.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Roger",
+              "image":"https://i.ibb.co/W6pyJJS/roger.png",
+              "price": 5564800000
+          },
+          {
+              "name":"Shanks",
+              "image":"https://i.ibb.co/WWnCBgw/shanks.png",
+              "price": "unknown"
+          }
+          
+        ],
+        "big-mom-pirates":[
+          {
+              "name":"Big Mom",
+              "image":"https://i.ibb.co/9wCfhsR/bigMom.jpg",
+              "price": 4388000000
+          },
+          {
+              "name":"Katakuri",
+              "image":"https://i.ibb.co/Kh9vJjg/katakuri.png",
+              "price": 1057000000
+          },
+          {
+              "name":"Cracker",
+              "image":"https://i.ibb.co/h20Jb02/cracker.png",
+              "price": 860000000
+          },
+          {
+              "name":"Perospero",
+              "image":"https://i.ibb.co/WB63Fsj/perospero.png",
+              "price": 700000000
+          },
+          {
+              "name":"Smoothie",
+              "image":"https://i.ibb.co/sPLG8yQ/smoothie.png",
+              "price": 932000000
+          }
+        ],
+        "red-hair-pirates":[
+          {
+              "name":"Benn Beckman",
+              "image":"https://i.ibb.co/pxM06Xd/beckman.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Shanks",
+              "image":"https://i.ibb.co/WVQcRNK/shanks.png",
+              "price": 4048900000
+          },
+          {
+              "name":"Lucky Roux",
+              "image":"https://i.ibb.co/nbWVhCn/lucky-Roux.png",
+              "price": "unknown"
+          },
+          {
+              "name":"Yasopp",
+              "image":"https://i.ibb.co/x19QZP6/yasopp.png",
+              "price": "unknown"
+          }
+        ],
+        "beast-pirates":[
+          {
+              "name":"Jack",
+              "image":"https://i.ibb.co/1qKhb7w/jack.png",
+              "price": 1000000000
+          },
+          {
+              "name":"Kaidou",
+              "image":"https://i.ibb.co/vDTrvNt/kaidou.png",
+              "price": 4611100000
+          },
+          {
+              "name":"King",
+              "image":"https://i.ibb.co/5c7YzWF/king.png",
+              "price": 1390000000
+          },
+          {
+              "name":"Queen",
+              "image":"https://i.ibb.co/8gk268x/queen.png",
+              "price": 1320000000
+          }
+        ]
+  },
+  "electronics":[
+      {
+          "name":"Apple II",
+          "image":"https://i.ibb.co/tLQNvVg/appletwo.png",
+          "price":1298,
+          "brand":"Apple"
+      },
+      {
+          "name":"CyberTruck",
+          "image":"https://i.ibb.co/rwTVrpL/cybertruck.png",
+          "price":39900,
+          "brand":"Tesla"
+      },
+      {
+          "name":"Falcon 9",
+          "image":"https://i.ibb.co/ncS76fC/falcon-Heavy.png",
+          "price":62000000,
+          "brand":"SpaceX"
+      },
+      {
+          "name":"Imac G3",
+          "image":"https://i.ibb.co/2twVRvQ/imac.png",
+          "price":1299,
+          "brand":"Apple"
+      },
+      {
+          "name":"Ipad",
+          "image":"https://i.ibb.co/7SZymmd/ipad.png",
+          "price":499,
+          "brand":"Apple"
+      },
+      {
+          "name":"Iphone",
+          "image":"https://i.ibb.co/CsMmPM1/iphone.png",
+          "price":499,
+          "brand":"Apple"
+      },
+      {
+          "name":"Ipod",
+          "image":"https://i.ibb.co/B49Tg6P/ipod.png",
+          "price":399,
+          "brand":"Apple"
+      },
+      {
+          "name":"Macintosh",
+          "image":"https://i.ibb.co/2jc5PC2/macintosh.png",
+          "price":2495,
+          "brand":"Apple"
+      },
+      {
+          "name":"Model 3",
+          "image":"https://i.ibb.co/10mS803/model3.png",
+          "price":35000,
+          "brand":"Tesla"
+      },
+      {
+          "name":"Model S Plaid",
+          "image":"https://i.ibb.co/D4bPJcw/modelS.png",
+          "price":88740,
+          "brand":"Tesla"
+      },
+      {
+          "name":"Model X",
+          "image":"https://i.ibb.co/y4WRRRh/modelX.png",
+          "price":98940,
+          "brand":"Tesla"
+      },
+      {
+          "name":"Starship",
+          "image":"https://i.ibb.co/B3Z71L4/starship.png",
+          "price":2000000,
+          "brand":"SpaceX"
+      }
   ]
 }
